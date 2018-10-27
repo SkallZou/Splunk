@@ -107,3 +107,5 @@
 
 ## Bonus Questions
 * The time stamp you see in the events is based on the time zone in your user account. **True**
+* Commands that create statistics and visualizations are called **transforming** commands.
+* In a dashboard, a time range picker will only work on panels that include a(n) **inline** search.
