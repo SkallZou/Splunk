@@ -74,17 +74,30 @@
 * **Dashboards** are reports gathered together into a single pane of glass.
 * The User role can not create reports. **False**
 
-##Chapter 11
+## Chapter 11 - Pivot and Datasets
 * The instant pivot button is diplayed in the statistics and visualization tabs when a **non-transforming** search is run.
 * Which role(s) can create data models ? **Admin, Power**
 * Pivots can be saved as dashboard panels. **True**
 * These are knowledge objects that provide the data structure for pivot. **Data models**
 * Adding child data model objects is like the **AND** Boolean in the Splunk search language.
-* 
 
-## Chapter 12 
+## Chapter 12 - Lookups
 * External data used by a lookup : Geospatial data, CSV File, Script
 * To display data from the http_status.csv : **inputlookup**
 * A lookup is categorized as a dataset : **True**
 * To keep from overwriting existing fields with your lookup : **OUTPUTNEW**
 * The first row in a CSV file for lookup is the **field name**
+
+## Chapter 13 - Scheduled Reports and Alerts
+* Real-time alers will run the search continuously in the background. **True**
+* Alerts can be shared to all apps. **True**
+* Alerts can send an email. **True**
+* Alerts can run uploaded scripts. **True**
+* An alert is an action triggered by a **Saved search**.
+
+## Bonus Questions
+* Which of these is not a main component of Splunk ? **Compress and archive**
+* The time stamp you see in the events is based on the time zone in your user account. **True**
+* If a search return this, you can view the results as a chart. **Statistical values**
+* A search job will remain active for **10** minutes after it is run.
+
